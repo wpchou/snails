@@ -105,7 +105,7 @@
 
 ;; snails 不符合现代 package 结构，增加一个 autoload 函数利于懒加载
 ;;;###autoload
-(defalias 'wenpin-snails 'snails)
+(defalias 'wenpin/snails 'snails)
 
 (provide 'snails)
 ;;; snails.el ends here
